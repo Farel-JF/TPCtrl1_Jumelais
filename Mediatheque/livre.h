@@ -9,6 +9,7 @@ private:
     int nombreDePages;
 public:
     Livre(const int _identifiant, const string &_titre, const string &_auteur, int _annee, int _nombreDePages);
+    ~Livre();
     void Afficher();
 
 
