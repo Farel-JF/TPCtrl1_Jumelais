@@ -1,0 +1,29 @@
+\doxysection{media.\+h}
+\hypertarget{media_8h_source}{}\label{media_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ MEDIA\_H}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ MEDIA\_H}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00012\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00013\ \textcolor{comment}{//Question\ 10}}
+\DoxyCodeLine{00028\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classMedia}{Media}}}
+\DoxyCodeLine{00029\ \{}
+\DoxyCodeLine{00030\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{int}\ identifiant;\ \textcolor{comment}{//\ identifiant\ du\ DVD\ ou\ livre}}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{string}\ titre;\ \ \ \textcolor{comment}{//\ titre\ du\ film\ ou\ livre}}
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{string}\ auteur;\ \ \textcolor{comment}{//\ l'auteur\ du\ film\ ou\ dvd}}
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{int}\ annee;\ \ \textcolor{comment}{//\ Année\ de\ sortir}}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00037\ \ \ \ \ \mbox{\hyperlink{classMedia}{Media}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \_identifiant,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ \&\_titre,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ \&\_auteur,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ \_annee);\ \textcolor{comment}{//\ constructeur}}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{classMedia}{\string~Media}}();\ \textcolor{comment}{//\ destructeur\ virtuel}}
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ Afficher()\ =\ 0;\ \textcolor{comment}{//\ fonction\ virtuel\ pure}}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \};}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ MEDIA\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,8 @@
+<map id="livre.h" name="livre.h">
+<area shape="rect" id="Node000001" title="Déclaration de la classe livre." alt="" coords="14,5,77,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,152,85,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="45,32,36,79,36,110,41,138,36,139,31,110,31,78,40,31"/>
+<area shape="rect" id="Node000003" href="$media_8h_source.html" title=" " alt="" coords="45,79,120,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="54,30,73,65,68,68,49,32"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="79,106,60,141,55,139,74,103"/>
+</map>
