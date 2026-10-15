@@ -4,4 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        livre.cpp \
+        main.cpp \
+        media.cpp
+
+HEADERS += \
+    livre.h \
+    media.h
